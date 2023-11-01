@@ -97,7 +97,7 @@ p {
   padding: 20px 0;
 }
 
-.address p,
+.address a,
 .phone a,
 .follow a {
   font-size: 15px;
@@ -127,7 +127,7 @@ nav.navbar {
   right: 0;
   background: #dec49f2b;
   backdrop-filter: blur(20px);
-  padding: 20px 0;
+  padding: 10px 0;
   -webkit-animation: sticky 1.2s;
   animation: sticky 1.2s;
   z-index: 999;
@@ -274,8 +274,12 @@ nav.navbar {
 
 /* About Section CSS Start */
 
+#About {
+  padding: 120px 0;
+}
+
 .about-wrapper {
-  padding: 60px 0;
+  padding-bottom: 80px;
   border-bottom: 1px solid #cacaca;
 }
 
@@ -294,11 +298,14 @@ nav.navbar {
 
 /* Products Section CSS Start */
 
+#Product {
+  padding: 120px 0 0;
+}
+
 .products-wrapper {
   background: url(../images/products-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 60px 0 0;
 }
 
 .products-top {
@@ -334,8 +341,12 @@ nav.navbar {
 
 /* Testimonials Section CSS Start */
 
+#Testimonials {
+  padding: 120px 0;
+}
+
 .testimonials-wrapper {
-  padding: 70px 0 45px;
+  padding-bottom: 80px;
   border-bottom: 1px solid #cacaca;
 }
 
@@ -444,7 +455,7 @@ nav.navbar {
 
 .contact-wrapper {
   background: #f0fafb;
-  padding: 40px 0 80px;
+  padding: 100px 0 80px;
 }
 
 .contact-form-wrapper {
@@ -526,7 +537,7 @@ nav.navbar {
   color: #656565;
 }
 
-.footer-address p,
+.footer-address a,
 .footer-company a {
   font-size: 18px;
   line-height: 183.523%;
@@ -534,7 +545,7 @@ nav.navbar {
   margin-bottom: 0;
 }
 
-.footer-address p i,
+.footer-address a i,
 .footer-company a i {
   padding-right: 10px;
 }
